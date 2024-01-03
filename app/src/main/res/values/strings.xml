@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FOOD HUB</string>
+    <string name="text1">Sulit Combo \n Promo !!!!</string>
+    <string name="text2">-</string>
+    <string name="text3">0</string>
+    <string name="text4">+</string>
+    <string name="text5">Sulit Combo S2 \n    Php 69.00</string>
+    <string name="text6">-</string>
+    <string name="text7">0</string>
+    <string name="text8">+</string>
+    <string name="text9">-</string>
+    <string name="text10">0</string>
+    <string name="text11">+</string>
+    <string name="text12">-</string>
+    <string name="text13">0</string>
+    <string name="text14">+</string>
+    <string name="text15">-</string>
+    <string name="text16">0</string>
+    <string name="text17">+</string>
+    <string name="text18">-</string>
+    <string name="text19">0</string>
+    <string name="text20">+</string>
+    <string name="text22">-</string>
+    <string name="text23">0</string>
+    <string name="text24">+</string>
+    <string name="text25">-</string>
+    <string name="text26">0</string>
+    <string name="text27">+</string>
+    <string name="text28">Enter Cash Amount</string>
+    <string name="text29">Total Payment: PHP 0.00</string>
+    <string name="text30">Order Complete</string>
+    <string name="text31">Total: $0.00</string>
+    <string name="text32">Change: $0.00</string>
+    <string name="text33">Pay</string>
+    <string name="text34">Velocity Cocktail \n Php 35.00</string>
+</resources>

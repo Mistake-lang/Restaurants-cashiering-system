@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:background="#F3C43E"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Food item 1 -->
+
+            <TextView
+                android:id="@+id/foodName1"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/text1"
+                android:textColor="#E23"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/foodNameTextView2"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="    Sulit Combo S1 \n        Php 99.00"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/combo2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrementButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text2"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantityTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text3"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/incrementButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text4"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+            <!-- Food item 2 -->
+
+            <TextView
+                android:id="@+id/foodName2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/text5"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/combo3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrementButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text6"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantity2TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text7"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/incrementButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text8"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <!-- Food item 3 -->
+            <TextView
+                android:id="@+id/foodName3TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="    Sulit Combo S3 \n        Php 89.00"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/combo4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrementButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text9"
+                    android:textColor="#000000"
+                    android:textSize="26dp" />
+
+                <TextView
+                    android:id="@+id/quantity3TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text10"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/incrementButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text11"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+            </LinearLayout>
+
+            <!-- Food item 4 -->
+
+            <TextView
+                android:id="@+id/foodName2"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="      Best Seller !!!"
+                android:textColor="#E23"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/foodName4TextView"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="    Crispy Sisig S4 \n        Php 65.00"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrement4Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text12"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantity4TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text13"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/increment4Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text14"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <!-- Food item 5 -->
+
+            <TextView
+                android:id="@+id/foodName5TextView"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="    Special Bulalo  \n      Php 125.00"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_2" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrement5Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text15"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantity5TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text16"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/increment5Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text17"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <!-- Food item 6 -->
+
+            <TextView
+                android:id="@+id/foodName6TextView"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Motivational Rice  \n      Php 100.00"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_1" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrement6Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text18"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantity6TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text19"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/increment6Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text20"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+            <!-- Food item 7 -->
+
+            <TextView
+                android:id="@+id/foodName3"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="       Drinks Area !!!"
+                android:textColor="#E23"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/foodName7TextView"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="   Special Coke   \n      Php 35.00"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_3" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrement7Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text22"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantity7TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text23"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/increment7Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text24"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <!-- Food item 8 -->
+
+            <TextView
+                android:id="@+id/foodName8TextView"
+                android:layout_width="228dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/text34"
+                android:textColor="#000000"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/img_4" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrement8Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text25"
+                    android:textColor="#000000"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/quantity8TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/text26"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/increment8Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text27"
+                    android:textColor="#000000"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/cashEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:fontFamily="sans-serif-black"
+                android:hint="@string/text28"
+                android:inputType="numberDecimal"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:textSize="28sp" />
+
+            <!-- Payment and change -->
+            <Button
+                android:id="@+id/payButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text33"
+                android:textColor="#000000"
+                android:textSize="26sp" />
+
+            <!-- Total payment display -->
+            <TextView
+                android:id="@+id/totalPaymentTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/text29"
+                android:textColor="#000000"
+                android:textSize="23sp" />
+
+            <!-- Receipt layout -->
+            <LinearLayout
+                android:id="@+id/receiptLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text30"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/totalAmountReceiptTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/text31"
+                    android:textColor="#000000"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/changeReceiptTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/text32"
+                    android:textColor="#000000"
+                    android:textSize="23sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</GridLayout>
